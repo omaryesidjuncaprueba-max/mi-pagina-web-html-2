@@ -1,0 +1,66 @@
+/* Fondo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+/* Contenedor principal */
+.container {
+    width: 900px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+/* Encabezado azul */
+.header {
+    background-color: #2f6f95;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Imagen perfil */
+.header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+/* Contenido */
+.content {
+    display: flex;
+}
+
+/* Columna izquierda */
+.left {
+    width: 65%;
+    padding: 20px;
+}
+
+/* Columna derecha */
+.right {
+    width: 35%;
+    background-color: #e6eef2;
+    padding: 20px;
+}
+
+/* Títulos */
+h2 {
+    color: #2f6f95;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+/* Espaciado */
+li {
+    margin-bottom: 8px;
+}
